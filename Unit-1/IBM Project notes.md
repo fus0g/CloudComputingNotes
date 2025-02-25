@@ -6,6 +6,8 @@
 
 IBM mainframe virtualization refers to the technology that allows a single physical IBM mainframe to run multiple virtual machines (VMs), each operating as an independent system with its own operating system, applications, and resources. It maximizes resource utilization, reduces costs, and enhances flexibility by partitioning a mainframe’s hardware into isolated environments.
 
+![IBM Virtualization](/images/Architecture%20of%20IBM%20Z%20Virtualization.png)
+
 **Historical Evolution**
 
 * **1964: System/360** \- IBM introduced the System/360, the first modern mainframe, laying the groundwork for virtualization by separating hardware and software.  
@@ -145,6 +147,8 @@ Virtualization allows multiple operating systems (OS) to run on a single physica
 * 2005-2006: Intel VT-x (Virtualization Technology) and AMD-V (AMD Virtualization) introduced.  
 * These extensions added hardware support to x86, revolutionizing virtualization.
 
+![X86 Virtulization Workflow](/images/x86%20Virtualization%20Workflow.png)
+
 #### 
 
 #### **Technical Details** 
@@ -158,6 +162,8 @@ Virtualization allows multiple operating systems (OS) to run on a single physica
   * New instructions: VMENTER, VMEXIT, VMLAUNCH, VMRESUME.
 
   * VMCS (Virtual Machine Control Structure) for managing guest state transitions.
+
+![Intel VT-x](/images/Intel%20VT-x.png)
 
 * **AMD-V**:
 
@@ -300,3 +306,4 @@ Virtualization on x86 architectures initially depended on software-based techniq
 * Continual evolution: support for AI accelerators, confidential computing, and tighter integration with container runtimes.  
 * Challenges: Balancing security (e.g., mitigating side-channel attacks like Spectre) with performance.
 
+![IO Virtualization](/images/I_O%20Virtualization%20with%20VT-d_AMD-Vi.png)
