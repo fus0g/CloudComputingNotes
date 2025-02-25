@@ -46,7 +46,9 @@ IT infrastructure forms the backbone of any organization's digital operations. T
 - **Performance Overhead**: Hypervisors introduce a small performance penalty compared to dedicated physical servers.
 - **Security Concerns**: Misconfigured virtual environments may lead to vulnerabilities.
 
-![IT Infrastructure with Virtualized Infrastructure](/images/TI-vs-VI.png)
+<p align="center">
+    <img src="/images/TI-vs-VI.png" alt="IT Infrastructure with Virtualized Infrastructure">
+</p>
 
 ## Conclusion
 
