@@ -1,4 +1,4 @@
-# Contents {#contents .TOC-Heading}
+# Contents
 
 - [Introduction](#introduction)
 - [Operating System and Virtualization](#operating-system-and-virtualization)

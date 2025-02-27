@@ -1,4 +1,3 @@
-```markdown
 # Understanding VPN and VLAN
 
 ## Introduction and Foundational Concepts
@@ -150,4 +149,4 @@ While VLANs offer many benefits, they come with challenges:
 
 - **VPN is more appropriate when:** Employees need to work remotely while securely accessing company resources.
 - **VLAN is more appropriate when:** A company wants to segment departments to improve security and traffic management.
-```
+  
